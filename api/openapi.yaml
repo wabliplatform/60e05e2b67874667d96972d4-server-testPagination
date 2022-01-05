@@ -132,11 +132,14 @@ components:
   schemas:
     card:
       example:
+        cardImage: cardImage
         _id: _id
         cardDescription: cardDescription
         cardText: cardText
       properties:
         _id:
+          type: string
+        cardImage:
           type: string
         cardText:
           type: string
@@ -144,5 +147,6 @@ components:
           type: string
       required:
       - cardDescription
+      - cardImage
       - cardText
       type: object
