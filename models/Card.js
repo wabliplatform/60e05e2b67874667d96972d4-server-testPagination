@@ -4,8 +4,6 @@ const Schema = mongoose.Schema;
 const cardSchema = new Schema({
 Underscoreid:String , 
 
-cardImage:String , 
-
 cardText:String , 
 
 cardDescription:String 
